@@ -8,6 +8,10 @@ body{
     overflow-y: scroll;
 }
 
+h2 {
+    font-size: 2.3em;
+    margin-bottom: 60px;
+}
 
 /*header*/
 header{
@@ -179,6 +183,7 @@ header a:hover {
 .formDiv .botaoCard:hover {
     background-color: #000;
     color: #3FBDF1;
+    border-radius: 10px;
 }
 
 .imgContato {
@@ -242,3 +247,91 @@ header a:hover {
   transform: translateX(0);
 }
 
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    /*header*/
+    #hero {
+        height: auto;
+        text-align: center;
+    }
+    .textoPainel{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /*sobre*/
+    #sobre .row {
+        height: auto;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+    
+    .imgSobre{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: none;
+    }
+    
+    .textSobre {
+        margin-top: 15px;
+    }
+    
+
+    /*habilidade*/
+    #habilidades {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    #habilidades .col-md-2 {
+        margin-top: 5px;
+    }
+    
+    .habText{
+        width: 100%;
+        text-align: center;
+    }
+
+    /*Projetos*/
+    #projetos {
+        background-color: #3FBDF1;
+        border-radius: 10px;
+    }
+    #projetos h2 {
+        margin-top: 15px;
+    }
+
+    /*contato*/
+    #contato .col-md-12 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .imgContato {
+        display: none;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    .imgPainel{
+        display: none;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
