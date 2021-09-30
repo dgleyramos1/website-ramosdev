@@ -16,8 +16,6 @@ h2 {
 /*header*/
 header{
     background-color: #3FBDF1;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 header a {
@@ -52,9 +50,7 @@ header a:hover {
     bottom: 120px;
 }
 
-.alinhamentoTexto{
-    padding-bottom: 30px;
-}
+
 
 
 .textoPainel{
@@ -67,7 +63,6 @@ header a:hover {
 
 #sobre {
     background-color: #3FBDF1;
-    border-radius: 10px;
 }
 #sobre .row {
     height: 580px;
@@ -147,7 +142,6 @@ header a:hover {
 
 #projetos {
     background-color: #3FBDF1;
-    border-radius: 10px;
     padding-bottom: 60px;
 }
 
