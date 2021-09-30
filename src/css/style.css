@@ -172,18 +172,18 @@ header a:hover {
 .form-group {
     width: 85%;
     margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .formDiv .botaoCard {
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .formDiv .botaoCard:hover {
     background-color: #000;
     color: #3FBDF1;
-    border-radius: 10px;
 }
 
 .imgContato {
@@ -250,7 +250,7 @@ header a:hover {
 
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) {
+@media (max-width: 575.98px) and (min-width: 360px) {
     /*header*/
     #hero {
         height: auto;
@@ -274,6 +274,11 @@ header a:hover {
     .imgSobre{
         margin-top: 15px;
         margin-bottom: 15px;
+        display: none;
+    }
+    .imgPainel {
+        position: static;
+        bottom: 120px;
         display: none;
     }
     
@@ -316,22 +321,263 @@ header a:hover {
         display: none;
     }
 
+    /*footer*/
+    .textoMenor{
+        text-align: center;
+    }
+    .limpar {
+        display: none;
+    }
+    #cabecalho .row {
+        height: 40px;
+    }
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) {
-    .imgPainel{
+@media (max-width: 767.98px) and (min-width: 577px) {
+    /*header*/
+    #hero {
+        height: auto;
+        text-align: center;
+    }
+    .textoPainel{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .ilustracaoPainel{
+        display: none;
+    }
+
+    /*sobre*/
+    #sobre .row {
+        height: auto;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+    
+    .imgSobre{
+        display: none;
+    }
+    
+    .textSobre {
+        margin-top: 15px;
+        text-align: left;
+    }
+    
+
+    /*habilidade*/
+    #habilidades {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    #habilidades .col-md-2 {
+        margin-top: 5px;
+    }
+    
+    .habText{
+        width: 100%;
+        text-align: center;
+    }
+
+    /*Projetos*/
+    #projetos {
+        background-color: #3FBDF1;
+        border-radius: 10px;
+    }
+    #projetos h2 {
+        margin-top: 15px;
+    }
+
+    /*contato*/
+    #contato .col-md-12 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .imgContato {
         display: none;
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+@media (max-width: 991.98px) and (min-width: 769px){
+    /*header*/
+    #hero {
+        height: auto;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .textoPainel{
+        margin-top: 30px;
+        margin-bottom: 0;
+        display: flex;
+        justify-items: center;
+        align-items: end;
+    }
+    .imgPainel{
+        position: static;
+        width: 400px;
+    }
 
+    /*sobre*/
+    #sobre .row {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    h2 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+    
+    .imgSobre{
+        display: none;
+    }
+    
+    .textSobre {
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+
+    /*habilidade*/
+    #habilidades {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    /*Projetos*/
+    #projetos {
+        height: auto;
+    }
+    .botaoCard {
+        width: 80px;
+        margin-bottom: 5px;
+    }
+    
+    #projetos h2 {
+        margin-top: 15px;
+    }
+
+    /*contato*/
+    #contato .col-md-12 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .imgContato {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .formDiv {
+        width: 100%;
+        height: 450px;
+    }
+    
+    .form-group {
+        width: 85%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media (max-width: 1199.98px) and (min-width: 992px) {
 
+
+
+    /*hero*/
+
+    #hero {
+        height: auto;
+    }
+    .textoPainel{
+        margin-top: 200px;
+        margin-bottom: 90px;
+    }
+    .alinhamentoTexto{
+        padding-bottom: 10px;
+    }
+
+    /*Sobre*/
+    #sobre .row {
+        height: auto;
+    }
+
+    .imgSobre{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .textSobre {
+        margin-top: 90px;
+    }
+
+    .e46_537 { 
+        overflow: none;
+    }
+    .e46_537 { 
+        width:350px;
+        height: 350px;
+        position: static;
+    }
+    .e46_534 { 
+        border-radius:500px;
+        width:350px;
+        height: 350px;
+        position:absolute;
+        left:10px;
+        top:10px;
+        background-image:url(../../img/ellipse_6.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .e46_535 { 
+        border-radius:500px;
+        background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
+        width: 350px;
+        height: 350px;
+        position:absolute;
+        left:20px;
+        top:0px;
+    }
+    .e46_535 { 
+        border:3px solid rgba(255, 255, 255, 1);
+    }
+    .e46_536 { 
+        border-radius:500px;
+        background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
+        width: 350px;
+        height: 350px;
+        position:absolute;
+        left:0px;
+        top:2px;
+    }
+    .e46_536 { 
+        border:3px solid rgba(0, 0, 0, 1);
+    }
+}
+
+@media (min-width: 1199.99px){
+    /*hero*/
+
+    #hero {
+        height: auto;
+    }
+    .textoPainel{
+        margin-top: 220px;
+        margin-bottom: 90px;
+        font-size: 1.3em;
+    }
+    .alinhamentoTexto{
+        padding-bottom: 15px;
+    }
 }
