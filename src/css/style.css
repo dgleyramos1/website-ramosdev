@@ -12,6 +12,8 @@ header{
     background-color: #3FBDF1;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    position: fixed;
+    width: 100vw;
 }
 
 header a {
@@ -33,6 +35,10 @@ header a:hover {
     width: 100vw;
     height: 595px;
 }
+#hero a{
+    text-decoration: none;
+}
+
 .col-md-6 {
     padding: 0;
     margin: 0;
@@ -54,4 +60,61 @@ header a:hover {
 
 /*Sobre*/
 
+#sobre {
+    background-color: #3FBDF1;
+    border-radius: 10px;
+    height: 650px;
+}
 
+.imgSobre{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.textSobre {
+    margin-top: 90px;
+}
+
+.e46_537 { 
+	overflow:hidden;
+}
+.e46_537 { 
+	width:420px;
+	height:410px;
+	position:absolute;
+}
+.e46_534 { 
+	border-radius:500px;
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:10px;
+	top:10px;
+	background-image:url(../../img/ellipse_6.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e46_535 { 
+	border-radius:500px;
+	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:20px;
+	top:0px;
+}
+.e46_535 { 
+	border:3px solid rgba(255, 255, 255, 1);
+}
+.e46_536 { 
+	border-radius:500px;
+	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:0px;
+	top:2px;
+}
+.e46_536 { 
+	border:3px solid rgba(0, 0, 0, 1);
+}
