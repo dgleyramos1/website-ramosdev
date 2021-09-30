@@ -12,8 +12,6 @@ header{
     background-color: #3FBDF1;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    position: fixed;
-    width: 100vw;
 }
 
 header a {
@@ -63,7 +61,9 @@ header a:hover {
 #sobre {
     background-color: #3FBDF1;
     border-radius: 10px;
-    height: 650px;
+}
+#sobre .row {
+    height: 580px;
 }
 
 .imgSobre{
@@ -74,6 +74,7 @@ header a:hover {
 .textSobre {
     margin-top: 90px;
 }
+
 
 .e46_537 { 
 	overflow:hidden;
@@ -117,4 +118,20 @@ header a:hover {
 }
 .e46_536 { 
 	border:3px solid rgba(0, 0, 0, 1);
+}
+
+
+/*Habilidades*/
+
+#habilidades {
+    height: 220px;
+}
+#habilidades .col-md-2 {
+    margin-right: 5px;
+}
+
+.habText{
+    background-color: #3FBDF1;
+    color: #000;
+    border-radius: 10px;
 }
