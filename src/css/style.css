@@ -113,32 +113,22 @@ header li:hover {
 
 #habilidades {
     height: auto;
-    background: url(../../img/habilidadesTop.svg) top left no-repeat;
-    padding-top: 90px;
-}
-#habilidades .card {
-    width: 90%;
-    margin: 0 auto;
-    background-color: #000;
-    color: #fff;
-    border: 1px solid #fff;
+    background: url(../../img/habilidadesTop.svg) top left no-repeat,
+                url(../../img/habilidadesBottom.svg) bottom left no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
-#habilidades .btn-link{
-    color: #fff;
+#hardskill {
+    list-style: none;
+    border-right: 1px solid #000;
+    text-align: center;
 }
-#habilidades .col-md-6 {
-    padding-bottom: 60px;
-    padding-top: 60px;
+#softskill {
+    list-style: none;
+    border-left: 1px solid #000;
+    text-align: center;
 }
-
-#habilidades .card-body {
-    background-color: #fff;
-    color: #000;
-    border: 2px solid #000;
-    border-radius: 0 0  10px 10px;
-}
-
 /*Projetos*/
 
 #projetos {
