@@ -20,6 +20,7 @@ header{
 header h1{
     font-size: 2em;
     font-family: 'Jacques Francois', serif;
+    color: #fff;
 }
 header li{
     margin: 0;
@@ -129,41 +130,6 @@ header li:hover {
     border-left: 1px solid #000;
     text-align: center;
 }
-/*Projetos*/
-
-#projetos {
-    background-color: rgb(255, 255, 255);
-    background: url(../../img/projetoTop.svg) top left no-repeat;
-    color: rgb(0, 0, 0);
-    padding-bottom: 120px;
-    padding-top: 250px;
-}
-#projetos .card {
-    margin-bottom: 15px;
-}
-#cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 60px;
-}
-
-.botaoCard {
-    background-color: #000;
-    color: #fff;
-    border-radius: 15px;
-}
-.botaoCard:hover {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #000;
-}
-
-#projetos .card-body {
-    background-color: rgba(66, 63, 63, 0.719);
-    color: #fff;
-}
-
 
 /*Footer*/
 
@@ -186,354 +152,188 @@ header li:hover {
 
 
 
-@media (max-width: 768px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
-/* display 3 */
-@media (min-width: 768px) {
-    
-    .carousel-inner .carousel-item-right.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(33.333%);
-    }
-    
-    .carousel-inner .carousel-item-left.active, 
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-33.333%);
-    }
-}
-
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left{ 
-  transform: translateX(0);
-}
-
-
-
 /* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 575.98px) and (min-width: 360px) {
+@media (max-width: 575.98px) {
+   
     /*header*/
-    #hero {
-        height: auto;
-        text-align: center;
+    header a{
+        color: white;
+        background-color: #000;
+        border: none;
     }
+    header li {
+        border: none;
+        width: 45%;
+    }
+
+
+    /*hero*/
+
     .textoPainel{
-        margin-top: 30px;
+        margin-top: 120px;
+        color: #000;
+        text-align: center;
+    }
+    .imagem { 
+        width: 200px;
+        height: 200px;
+        margin-top: 15px;
+    }
+
+
+    /*Sobre*/
+    #sobre h2 {
         margin-bottom: 30px;
-    }
-
-    /*sobre*/
-    #sobre .row {
-        height: auto;
-        text-align: center;
-    }
-    h2 {
-        font-size: 1.4em;
-        margin-bottom: 20px;
-    }
-    
-    .imgSobre{
-        margin-top: 15px;
-        margin-bottom: 15px;
-        display: none;
-    }
-    .imgPainel {
-        position: static;
-        bottom: 120px;
-        display: none;
-    }
-    
-    .textSobre {
-        margin-top: 15px;
-    }
-    
-
-    /*habilidade*/
-    #habilidades {
-        width: 100vw;
-        height: auto;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-    #habilidades .col-md-2 {
-        margin-top: 5px;
-    }
-    
-    .habText{
-        width: 100%;
+        margin-top: 30px;
         text-align: center;
     }
 
-    /*Projetos*/
-    #projetos {
-        background-color: #3FBDF1;
-        border-radius: 10px;
-    }
-    #projetos h2 {
-        margin-top: 15px;
+    #sobre .imagem {
+        width: 200px;
     }
 
-    /*contato*/
-    #contato .col-md-12 {
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .imgContato {
-        display: none;
+
+    /*Habilidades*/
+    #hardskill {
+        border-right: none;
+        padding-left: 0;
     }
 
-    /*footer*/
-    .textoMenor{
-        text-align: center;
+    #softskill {
+        border-left: none;        
+        padding-left: 0;
     }
-    .limpar {
-        display: none;
-    }
-    #cabecalho .row {
-        height: 40px;
-    }
-
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 767.98px) and (min-width: 577px) {
+  
     /*header*/
-    #hero {
-        height: auto;
+    header a{
+        color: white;
+        background-color: #000;
+        border: none;
+    }
+    header li {
+        border: none;
+        width: 45%;
+    }
+
+
+    /*hero*/
+    .textoPainel{
+        margin-top: 120px;
         text-align: center;
     }
-    .textoPainel{
+    .imagem { 
         margin-top: 30px;
+        width: 250px;
+        height: 250px;
+    }
+
+
+    /*Sobre*/
+    #sobre .row {
+        padding-bottom: 30px;
+    }
+    .textSobre {
+        text-align: center;
+    }
+    #sobre h2 {
         margin-bottom: 30px;
     }
-    .ilustracaoPainel{
-        display: none;
+
+    #sobre .imagem {
+        width: 250px;
     }
 
-    /*sobre*/
-    #sobre .row {
-        height: auto;
-        text-align: center;
-    }
-    h2 {
-        font-size: 1.4em;
-        margin-bottom: 20px;
-    }
-    
-    .imgSobre{
-        display: none;
-    }
-    
-    .textSobre {
-        margin-top: 15px;
-        text-align: left;
-    }
-    
 
-    /*habilidade*/
-    #habilidades {
-        width: 100vw;
-        height: auto;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-    #habilidades .col-md-2 {
-        margin-top: 5px;
-    }
-    
-    .habText{
-        width: 100%;
-        text-align: center;
+    /*Habilidades*/
+    #hardskill {
+        border-right: none;
+        padding-left: 0;
     }
 
-    /*Projetos*/
-    #projetos {
-        background-color: #3FBDF1;
-        border-radius: 10px;
-    }
-    #projetos h2 {
-        margin-top: 15px;
+    #softskill {
+        border-left: none;        
+        padding-left: 0;
     }
 
-    /*contato*/
-    #contato .col-md-12 {
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .imgContato {
-        display: none;
-    }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (max-width: 991.98px) and (min-width: 769px){
-    /*header*/
-    #hero {
-        height: auto;
-        text-align: center;
-        margin-bottom: 30px;
-        margin-top: 15px;
-    }
-    .textoPainel{
-        margin-top: 30px;
-        margin-bottom: 0;
-        display: flex;
-        justify-items: center;
-        align-items: end;
-    }
-    .imgPainel{
-        position: static;
-        width: 400px;
+    /*hero*/
+    .imagem { 
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 2px solid #000;
+        box-shadow: 0 0 10px #000;
+        margin-top: 120px;
     }
 
-    /*sobre*/
+    /*Sobre*/
     #sobre .row {
-        justify-content: center;
-        align-items: center;
         height: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
-    h2 {
-        font-size: 1.4em;
-        margin-bottom: 20px;
-    }
-    
-    .imgSobre{
-        display: none;
-    }
-    
     .textSobre {
-        margin-top: 15px;
-        text-align: center;
+        height: 300px;
     }
-    
-
-    /*habilidade*/
-    #habilidades {
-        width: 100vw;
-        height: auto;
-        margin-bottom: 15px;
-        margin-top: 15px;
+    #sobre h2 {
+        margin-bottom: 30px;
     }
 
-    /*Projetos*/
-    #projetos {
-        height: auto;
-    }
-    .botaoCard {
-        width: 80px;
-        margin-bottom: 5px;
-    }
-    
-    #projetos h2 {
-        margin-top: 15px;
-    }
-
-    /*contato*/
-    #contato .col-md-12 {
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .imgContato {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    .formDiv {
-        width: 100%;
-        height: 450px;
-    }
-    
-    .form-group {
-        width: 85%;
-        margin-top: 5px;
-        margin-bottom: 5px;
+    #sobre .imagem {
+        margin-top: -30px;
+        width: 300px;
+        box-shadow: 0 0 10px #fff;
+        border: none;
     }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 992px) {
 
-
-
     /*hero*/
+    #hero .row {
+        align-items: end!important;
+    }
+    .imagem { 
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        border: 2px solid #000;
+        box-shadow: 0 0 10px #000;        
+        margin-top: 120px;
+    }
 
-    #hero {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .textoPainel{
-        margin-top: 200px;
-    }
 
     /*Sobre*/
+
+    #sobre {
+        background-color: #000;
+        color: #fff;
+    }
     #sobre .row {
         height: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
-
-    .imgSobre{
-        margin-top: 30px;
+    .textSobre {
+        height: 300px;
+    }
+    #sobre h2 {
         margin-bottom: 30px;
     }
 
-    .textSobre {
-        margin-top: 60px;
-    }
-
-    .e46_537 { 
-        overflow: none;
-    }
-    .e46_537 { 
-        width:350px;
-        height: 350px;
-        position: static;
-    }
-    .e46_534 { 
-        border-radius:500px;
-        width:350px;
-        height: 350px;
-        position:absolute;
-        left:10px;
-        top:10px;
-        background-image:url(../../img/ellipse_6.png);
-        background-repeat:no-repeat;
-        background-size:cover;
-    }
-    .e46_535 { 
-        border-radius:500px;
-        background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
-        width: 350px;
-        height: 350px;
-        position:absolute;
-        left:20px;
-        top:0px;
-    }
-    .e46_535 { 
-        border:3px solid rgba(255, 255, 255, 1);
-    }
-    .e46_536 { 
-        border-radius:500px;
-        background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
-        width: 350px;
-        height: 350px;
-        position:absolute;
-        left:0px;
-        top:2px;
-    }
-    .e46_536 { 
-        border:3px solid rgb(255, 255, 255);
+    #sobre .imagem {
+        width: 400px;
+        margin-top: -30px;
+        height: auto;
+        box-shadow: 0 0 10px #fff;
+        border: none;
     }
 }
