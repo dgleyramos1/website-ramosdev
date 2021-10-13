@@ -74,6 +74,13 @@ header li:hover {
     margin-top: 136px;
     color: #000;
 }
+.imagem { 
+	width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px #000;
+}
 
 
 /*Sobre*/
@@ -94,48 +101,11 @@ header li:hover {
     margin-bottom: 30px;
 }
 
-.e46_537 { 
-	overflow:hidden;
-}
-.e46_537 { 
-	width:320px;
-	height:310px;
-	position:absolute;
-}
-.e46_534 { 
-	border-radius:500px;
-	width:300px;
-	height:300px;
-	position:absolute;
-	left:10px;
-	top:10px;
-	background-image:url(../../img/ellipse_6.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e46_535 { 
-	border-radius:500px;
-	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
-	width:300px;
-	height:300px;
-	position:absolute;
-	left:20px;
-	top:0px;
-}
-.e46_535 { 
-	border:3px solid rgba(255, 255, 255, 1);
-}
-.e46_536 { 
-	border-radius:500px;
-	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
-	width:300px;
-	height:300px;
-	position:absolute;
-	left:0px;
-	top:2px;
-}
-.e46_536 { 
-	border:3px solid rgba(255, 255, 255, 1);
+#sobre .imagem {
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 10px #fff;
+    border: none;
 }
 
 
@@ -143,6 +113,8 @@ header li:hover {
 
 #habilidades {
     height: auto;
+    background: url(../../img/habilidadesTop.svg) top left no-repeat;
+    padding-top: 90px;
 }
 #habilidades .card {
     width: 90%;
@@ -608,6 +580,6 @@ header li:hover {
         top:2px;
     }
     .e46_536 { 
-        border:3px solid rgba(0, 0, 0, 1);
+        border:3px solid rgb(255, 255, 255);
     }
 }
