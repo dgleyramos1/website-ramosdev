@@ -463,25 +463,25 @@
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" class="contact__input" id="name">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" class="contact__input" id="email">
                             </div>
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Subject</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" class="contact__input" id="subject">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="" id="message" cols="0" rows="7" class="contact__input" ></textarea>
                         </div>
 
                         <div>
-                            <a href="#" class="button button--flex">
+                            <a href="#" id="button-send" class="button button--flex">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
                             </a>
@@ -545,5 +545,7 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+
+        <script type="text/javascript" src="src/index.js"></script>
     </body>
 </html>
